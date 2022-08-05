@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  background: white;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.mobile-image {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  background: hsl(256, 26%, 20%);
+  height: 500px;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.intro-items .intro-item_header {
+  font-family: "DM Serif Display", serif;
+  font-size: 3rem;
+  letter-spacing: .1rem;
+  font-weight: 100;
+}
+
+.intro-items .intro-item_paragraph {
+  font-family: "Karla", sans-serif;
+  font-size: 1.2rem;
+}
+
+.intro-button {
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid white;
+  padding: .75rem 2.3rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.intro-pattern-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.intro-pattern-right {
+  position: absolute;
+  bottom: -36%;
+  right: 0;
+}
+
+/* 
+font-family: 'DM Serif Display', serif;
+font-family: 'Karla', sans-serif; */
