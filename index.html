@@ -1,126 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Insure landing page</title>
-  <link rel="stylesheet" href="css/main.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
-</head>
-<body>
-  <nav>
-    <div class="logo">
-      <img src="images/logo.svg" alt="logo of the website">
-    </div>
-
-    <div class="desktop-nav"> 
-      <ul>
-        <li>How we work</li>
-        <li>Blog</li>
-        <li>Account</li>
-      </ul>
-      <button>View plans</button>
-    </div>
-
-    <div class="hamburger">
-      <img src="images/icon-hamburger.svg" alt="hamburger icon">
-    </div>
-  </nav>
-
-  <main class="intro">
-    <div class="mobile-image"> 
-      <img class="mobile-intro" src="images/image-intro-mobile.jpg" alt="mobile intro image">
-    </div>
-    
-    <div class="intro-items">
-      <div class="intro-pattern-left">
-        <img src="images/bg-pattern-intro-left-mobile.svg" alt="a pattern for intro section">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Insure landing page</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo of the website" />
       </div>
 
-      <p class="intro-item_header">Humanizing your insurance.</p> 
-      <p class="intro-item_paragraph">
-        Get your life insurance coverage easier and faster. We blend our expertise 
-        and technology to help you find the plan that's right for you. Ensure you 
-        and your loved ones are protected.
-      </p>
-      <button class="intro-button">View plans</button> 
-      
+      <div class="desktop-nav">
+        <ul>
+          <li>How we work</li>
+          <li>Blog</li>
+          <li>Account</li>
+        </ul>
+        <button>View plans</button>
+      </div>
 
-      <div class="intro-pattern-right">
-        <img src="images/bg-pattern-intro-right-mobile.svg" alt="a pattern for intro section">
-      </div> 
+      <div class="hamburger">
+        <img src="images/icon-hamburger.svg" alt="hamburger icon" />
+      </div>
+    </nav>
 
+    <main id="intro">
+      <div class="mobile-image">
+        <img
+          class="mobile-intro"
+          src="images/image-intro-mobile.jpg"
+          alt="mobile intro image"
+        />
+      </div>
+
+      <div class="intro-items">
+        <div class="intro-pattern-left">
+          <img
+            src="images/bg-pattern-intro-left-mobile.svg"
+            alt="a pattern for intro section"
+          />
+        </div>
+
+        <p class="intro-item_header">Humanizing your insurance.</p>
+        <p class="intro-item_paragraph">
+          Get your life insurance coverage easier and faster. We blend our
+          expertise and technology to help you find the plan that's right for
+          you. Ensure you and your loved ones are protected.
+        </p>
+        <button class="intro-button">View plans</button>
+
+        <div class="intro-pattern-right">
+          <img
+            src="images/bg-pattern-intro-right-mobile.svg"
+            alt="a pattern for intro section"
+          />
+        </div>
+      </div>
+    </main>
+
+    <section>
+      <hr size="1" />
+      <div id="appraisal">
+        <h1 class="appraisal-header">We're different</h1>
+
+        <div class="appraisal-items">
+          <div class="appraisal-item_image">
+            <img src="images/icon-snappy-process.svg" alt="bolt icon" />
+          </div>
+          <p class="appraisal-item_header">Snappy Process</p>
+          <p class="appraisal-item-paragraph">
+            Our application process can be completed in minutes, not hours.
+            Don't get stuck filling in tedious forms.
+          </p>
+        </div>
+
+        <div class="appraisal-items">
+          <div class="appraisal-item_image">
+            <img src="images/icon-affordable-prices.svg" alt="dollar icon" />
+          </div>
+          <p class="appraisal-item_header">Affordable Prices</p>
+          <p class="appraisal-item-paragraph">
+            We don't want you worrying about high monthly costs. Our prices may
+            be low, but we still offer the best coverage possible.
+          </p>
+        </div>
+
+        <div class="appraisal-items">
+          <div class="appraisal-item_image">
+            <img src="images\icon-snappy-process.svg" alt="human icon" />
+          </div>
+          <p class="appraisal-item_header">People First</p>
+          <p class="appraisal-item-paragraph">
+            Our plans aren't full of conditions and clauses to prevent payouts.
+            We make sure you're covered when you need it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div id="hw-we-work">
+      <div class="hw-we-work-img">
+        <img
+          src="images/bg-pattern-how-we-work-mobile.svg"
+          alt="a pattern for the work section"
+        />
+      </div>
+      <h1 class="hw-we-work_header">Find out more about how we work</h1>
+      <button class="hw-we-work_button">How we work</button>
     </div>
-  </main>
 
- 
+    <footer>
+      <div class="footer-pattern">
+        <img
+          src="images/bg-pattern-footer-mobile.svg"
+          alt="pattern for the footer's section"
+        />
+      </div>
+      <div class="logo-n-socials">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="the logo" />
+        </div>
+        <div class="socials">
+          <img src="images/icon-facebook.svg" alt="facebook icon" />
+          <img src="images/icon-twitter.svg" alt="twitter icon" />
+          <img src="images/icon-pinterest.svg" alt="pinterest icon" />
+          <img src="images/icon-instagram.svg" alt="instagram icon" />
+        </div>
+      </div>
+      <hr size="1" />
+      <p class="footer-item_header">Our company</p>
+      <a href="#" class="footer-item">How we work</a>
+      <a href="#" class="footer-item">Why Insure?</a>
+      <a href="#" class="footer-item">View plans</a>
+      <a href="#" class="footer-item">Reviews</a>
 
- <h1>We’re different</h1> 
+      <p class="footer-item_header">Help me</p>
+      <a href="#" class="footer-item">FAQ</a>
+      <a href="#" class="footer-item">Terms of use</a>
+      <a href="#" class="footer-item">Privacy policy</a>
+      <a href="#" class="footer-item">Cookies</a>
 
- <p>Snappy Process</p>
- <p>
-  Our application process can be completed in minutes, not hours. Don’t get 
-  stuck filling in tedious forms.
- </p>
-  
+      <p class="footer-item_header">Contact</p>
+      <a href="#" class="footer-item">Sales</a>
+      <a href="#" class="footer-item">Support</a>
+      <a href="#" class="footer-item"> Live chat</a>
 
-  
-<p>Affordable Prices</p>
-  
-<p>
-  We don’t want you worrying about high monthly costs. Our prices may be low, 
-  but we still offer the best coverage possible.
-</p>
-  
-
-<p> People First</p>
-<p>
-  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
-  sure you’re covered when you need it.
-</p>
- 
-<h1>
-  Find out more about how we work
-</h1>
- 
-<button>How we work</button>
-  
-
-  Our company
-
-  How we work
-  Why Insure?
-  View plans
-  Reviews
-
-  Help me
-
-  FAQ
-  Terms of use
-  Privacy policy
-  Cookies
-
-  Contact
-
-  Sales
-  Support
-  Live chat
-
-  Others
-
-  Careers
-  Press
-  Licenses
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <p class="footer-item_header">Others</p>
+      <a href="#" class="footer-item">Careers</a>
+      <a href="#" class="footer-item">Press</a>
+      <a href="#" class="footer-item"> Licenses</a>
+    </footer>
+  </body>
 </html>

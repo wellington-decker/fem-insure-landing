@@ -7,7 +7,7 @@
 }
 
 body {
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 img {
@@ -48,8 +48,8 @@ nav {
 .intro-items .intro-item_header {
   font-family: "DM Serif Display", serif;
   font-size: 3rem;
-  letter-spacing: .1rem;
-  font-weight: 100;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
 }
 
 .intro-items .intro-item_paragraph {
@@ -62,7 +62,7 @@ nav {
   text-transform: uppercase;
   background: none;
   border: 1px solid white;
-  padding: .75rem 2.3rem;
+  padding: 0.75rem 2.3rem;
   font-size: 1rem;
   color: white;
 }
@@ -79,6 +79,147 @@ nav {
   right: 0;
 }
 
-/* 
-font-family: 'DM Serif Display', serif;
-font-family: 'Karla', sans-serif; */
+section {
+  margin-top: 10em;
+}
+
+section hr {
+  width: 30%;
+  margin: 2em auto;
+  background-color: rgb(152, 150, 150);
+}
+
+#appraisal {
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+
+.appraisal-header {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.75rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.appraisal-items + .appraisal-items {
+  margin-top: 2em;
+}
+
+.appraisal-item_image {
+  width: 25%;
+  height: 25%;
+  margin: 2.5em auto 2em;
+}
+
+.appraisal-item_header {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin: 0 0 0.5em;
+}
+
+.appraisal-item-paragraph {
+  font-family: "Karla", sans-serif;
+  font-size: 1.1rem;
+}
+
+#hw-we-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 1.5rem;
+  background: hsl(256, 26%, 20%);
+  width: 90%;
+  height: 350px;
+  margin: 6em auto;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.hw-we-work-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hw-we-work_header {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.7rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  color: white;
+}
+
+.hw-we-work_button {
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid white;
+  padding: 0.75rem 2.3rem;
+  font-size: 1rem;
+  color: white;
+}
+
+footer {
+  background: hsl(0, 0%, 98%);
+  position: relative;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.footer-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo-n-socials {
+  padding: 2em;
+}
+
+.footer-logo {
+  width: 30%;
+  margin: 1.5em auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.socials img {
+  width: 8%;
+  height: 8%;
+}
+
+footer hr {
+  background-color: rgb(152, 150, 150);
+  width: 90%;
+  margin: 0.5em auto 2em;
+}
+
+.footer-item_header {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(273, 4%, 51%);
+  margin: 2em 0;
+}
+
+a.footer-item {
+  display: block;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: hsl(270, 9%, 17%);
+}
+
+a.footer-item + a.footer-item {
+  margin-top: 0.5em;
+}
