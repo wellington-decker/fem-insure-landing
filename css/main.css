@@ -22,8 +22,79 @@ nav {
   background: white;
 }
 
+.closeBtn {
+  display: none;
+}
+
 .desktop-nav {
   display: none;
+}
+
+.mobile-nav {
+  opacity: 0;
+  top: -1000px;
+  position: absolute;
+  background: hsl(270, 9%, 17%);
+  width: 100%;
+  height: 90vh;
+  z-index: 2;
+  transition: top 1.5s ease-out;
+  overflow-y: none;
+}
+
+.mobile-nav.display {
+  opacity: 1;
+  top: 67px;
+}
+
+.mobile-nav-items {
+  position: relative;
+  height: 100%;
+}
+
+.nav-container {
+  padding: 3rem 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+ul > a {
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.nav-pattern {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+
+.nav-button {
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid white;
+  width: 60%;
+  padding: 1rem 2.3rem;
+  font-size: 1rem;
+  color: white;
 }
 
 .mobile-image {
@@ -180,7 +251,7 @@ footer {
 }
 
 .footer-logo {
-  width: 30%;
+  width: 45%;
   margin: 1.5em auto;
 }
 
@@ -192,8 +263,8 @@ footer {
 }
 
 .socials img {
-  width: 8%;
-  height: 8%;
+  width: 9%;
+  height: 9%;
 }
 
 footer hr {
