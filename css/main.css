@@ -424,7 +424,6 @@ a.footer-item + a.footer-item {
   .desktop-nav {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
     align-items: center;
     width: 55%;
   }
