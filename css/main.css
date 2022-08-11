@@ -32,6 +32,7 @@ nav {
 
 .desktop-nav {
   display: none;
+  border: 1px solid red;
 }
 
 .mobile-nav {
@@ -361,6 +362,8 @@ a.footer-item + a.footer-item {
 
   .desktop {
     display: none;
+    /* width: 60%; */
+
   }
 
   .desktop-image {
@@ -421,8 +424,9 @@ a.footer-item + a.footer-item {
   .desktop-nav {
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
     align-items: center;
-    width: 45%;
+    width: 55%;
   }
 
   .desktop-nav ul {
